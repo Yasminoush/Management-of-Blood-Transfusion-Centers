@@ -62,7 +62,7 @@ return(n);
 
 
 
-center chercher(char * center_info, int id)
+center search(char * center_info, int id)
 {
    center c;
     int tr=0;
