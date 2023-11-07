@@ -2,7 +2,7 @@
 #include <string.h>
 #include "donation.h"
 
-int addDonation sheet(char *filename, struct Sheet s)
+int addDonationsheet(char *filename, Sheet s)
 {
     FILE *f = fopen(filename, "a");
     if (f != NULL)
