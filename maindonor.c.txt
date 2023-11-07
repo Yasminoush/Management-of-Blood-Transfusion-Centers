@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "donor.h"
+
+int main()
+{
+int a,n,id;
+sheet s,L[100];
+float b;
+n=0;
+do{
+    do{
+    printf("press: /n 1 to add sheet /n 2 search /n 3 delete 4 statistic 1 5 statistic 2");
+    scanf("%d",&a);
+}while(a<0 || a>6);
+switch (a)
+{
+    case 1 :
+        s=read_sheet();
+        n=add_sheet(L,n,s);
+        break;
+    case 2:
+
+        break;
+
+    case 3 :
+        n=delete_sheet(L,n,s);
+
+        break;
+
+    case 4:
+        break;
+
+    case 5:
+        break;
+
+    case 6:
+        break;
+}
+}while(a!=0);
+return 0;
+
+};

@@ -1,0 +1,33 @@
+#ifndef HEADER_H_INCLUDED
+#define HEADER_H_INCLUDED
+
+
+typedef stuct{
+int d;
+int m;
+int y;
+}date;
+
+typedef struct{
+char id[15];
+char fn[15];
+char pn[15];
+date dob;
+date doa;
+int gender;
+int others[4];
+char btc[15];
+}sheet
+
+sheet read_sheet();
+int add_sheet(sheet L[],int n, sheet S);
+int search(sheet L[],int n, int id);
+int delete_sheet(sheet L[], int n, int id);
+void static1(sheet L[], int n);
+void static2(sheet L[], int n);
+#endif // HEADER_H_INCLUDED
+
+
+
+
+
