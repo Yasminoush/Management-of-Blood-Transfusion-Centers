@@ -22,7 +22,7 @@ int day;
 int month;
 int year;
 
-}d;ddddddddddddddddddddddddddddddddddddddddddddddddddd
+}d;
 
 typedef struct {
 
