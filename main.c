@@ -9,19 +9,22 @@ int main()
     int x= switch_notebook_page(AppWidgets *appWidgets)
     /*
     if(x!=1)
-        
+
    printf("\nechec ajout");
         */
     x=switch_notebook_page_display(appWidgets, center nouv,id, center_info) 
 
     if(x!=1)
-      
+
     printf("\nerreur the id doesn t exist");
     
   
-      
-  c3= chercher(center_info, id);
+
+  c3= search(center_info, id);
     if(c3.id==-1)
         printf("introuvable");
     return 0;
 }
+
+
+
